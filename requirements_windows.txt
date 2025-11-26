@@ -1,0 +1,18 @@
+# AMLAC Robot - Windows Testing Dependencies
+# For testing the model on Windows (NOT for Raspberry Pi)
+
+# TensorFlow (full version for Windows)
+tensorflow>=2.15.0
+
+# Image processing
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Note: Do NOT install tflite-runtime on Windows - it's Raspberry Pi only!
+# Use full TensorFlow instead for testing
+
+# Test a single image
+# python test_model_windows.py Algae/IMG_4003.JPG
+
+# Test multiple images (default: 10 from Algae folder)
+# python test_model_windows.py
