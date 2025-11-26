@@ -16,3 +16,10 @@ Pillow>=10.0.0
 
 # Test multiple images (default: 10 from Algae folder)
 # python test_model_windows.py
+
+
+# Step 1: Delete old dataset (if it exists from previous training)
+# Remove-Item -Recurse -Force dataset
+
+# Step 2: Run training (it will detect No_Algae folder automatically)
+# python train_model.py
