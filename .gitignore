@@ -48,10 +48,6 @@ Algae/
 No_Algae/
 dataset/
 
-# ML Models (large files)
-models/*.tflite
-models/*.h5
-models/*.pb
 
 # Backup files
 *_backup_*.csv
